@@ -1,0 +1,23 @@
+Projet de C++
+
+Comment sa marche:
+
+pour lancer le jeu on utilise les commandes :
+
+On compile avec : make jeuJSV2
+On execute avec : ./jeuJSV2
+
+-Apres on choisit le nombre de joueur ("entrée")
+-Le nombres de pions par joueur ("entrée")
+-choisir si c'est un humain ou Robot (oui/non) [Y/*]
+-"Entrée" pour afficher la fenetre de Jeu et jouer 
+
+Jeux:
+
+On pourra d'abord choisir son pion dans le cas ou il y a plusieurs pions.
+
+Appuyer sur "espace" pour la simulation de dé et ainsi le déplacement du pion
+
+Pour supprimer les .o
+make clean
+
