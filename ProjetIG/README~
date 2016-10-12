@@ -1,0 +1,7 @@
+pour compiler :
+
+javac parsexml/*.java
+javac controller/*.java
+javac view/graphical/*.java
+javac model/*.java
+javac Editeur.java

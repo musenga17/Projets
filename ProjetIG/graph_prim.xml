@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<graphe>
+  <!--Création d'un graphe-->
+  <cercle id="0" radius="25.0" x="115.0" y="83.0">
+    <name x="108.6376953125" y="83.0">0</name>
+  </cercle>
+  <cercle id="1" radius="25.0" x="390.0" y="91.0">
+    <name x="383.6376953125" y="91.0">1</name>
+  </cercle>
+  <cercle id="2" radius="25.0" x="121.0" y="317.0">
+    <name x="114.6376953125" y="317.0">2</name>
+  </cercle>
+  <cercle id="3" radius="25.0" x="379.0" y="315.0">
+    <name x="372.6376953125" y="315.0">3</name>
+  </cercle>
+  <cercle id="4" radius="25.0" x="56.0" y="200.0">
+    <name x="49.6376953125" y="200.0">4</name>
+  </cercle>
+  <arete endX="390.0" endY="91.0" sd="1" sg="0" startX="115.0" startY="83.0">
+    <cout cout="2" x="252.5" y="87.0"/>
+  </arete>
+  <arete endX="379.0" endY="315.0" sd="3" sg="0" startX="115.0" startY="83.0">
+    <cout cout="1" x="247.0" y="199.0"/>
+  </arete>
+  <arete endX="379.0" endY="315.0" sd="3" sg="1" startX="390.0" startY="91.0">
+    <cout cout="2" x="384.5" y="203.0"/>
+  </arete>
+  <arete endX="379.0" endY="315.0" sd="3" sg="2" startX="121.0" startY="317.0">
+    <cout cout="3" x="250.0" y="316.0"/>
+  </arete>
+  <arete endX="56.0" endY="200.0" sd="4" sg="0" startX="115.0" startY="83.0">
+    <cout cout="11" x="85.5" y="141.5"/>
+  </arete>
+  <arete endX="121.0" endY="317.0" sd="2" sg="4" startX="56.0" startY="200.0">
+    <cout cout="8" x="88.5" y="258.5"/>
+  </arete>
+</graphe>
