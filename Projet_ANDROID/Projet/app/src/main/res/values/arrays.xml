@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="semaine">
+        <item>lundi</item>
+        <item>mardi</item>
+        <item>mercredi</item>
+        <item>jeudi</item>
+        <item>vendredi</item>
+        <item>samedi</item>
+        <item>dimanche</item>
+    </string-array>
+    <string-array name="criteres">
+        <item>nom</item>
+        <item>note</item>
+        <item>cuisine</item>
+        <item>cout</item>
+        <item>numero</item>
+    </string-array>
+</resources>

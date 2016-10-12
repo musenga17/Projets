@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Projet</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_infos_resto">InfosResto</string>
+    <string name="title_activity_ajout_resto">AjoutResto</string>
+    <string name="title_activity_modif_resto">ModifResto</string>
+</resources>

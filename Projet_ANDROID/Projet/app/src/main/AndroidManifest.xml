@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.benja.projet" >
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".InfosResto"
+            android:label="@string/title_activity_infos_resto"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AjoutResto"
+            android:label="@string/title_activity_ajout_resto"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ModifResto"
+            android:label="@string/title_activity_modif_resto"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RechercheResto"
+            android:label="RechercheResto"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".EnvoiInvitation" />
+        <activity android:name=".MenuResto" >
+        </activity>
+    </application>
+
+</manifest>
